@@ -7,6 +7,6 @@ class CounterObserver extends BlocObserver {
   void onChange(BlocBase bloc, Change change) {
     super.onChange(bloc, change);
 
-    print('${bloc.runtimeType} $change');
+    print('CounterObserver ${bloc.runtimeType} $change');
   }
 }
