@@ -20,4 +20,10 @@ class AuthenticationRepository {
       () => _controller.add(AuthenticationStatus.authenticated),
     );
   }
+
+  void logOut() {
+    _controller.add(AuthenticationStatus.unauthenticated);
+  }
+
+  void dispose() => _controller.close();
 }
