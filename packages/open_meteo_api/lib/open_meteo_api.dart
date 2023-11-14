@@ -1,8 +1,3 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
-library;
+library open_meteo_api;
 
-export 'src/open_meteo_api_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/models/models.dart';
