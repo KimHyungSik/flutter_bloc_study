@@ -30,17 +30,21 @@ environment:
 dependencies:
   authentication_repository:
     path: packages/authentication_repository
+  open_meteo_api:
+    path: packages/open_meteo_api
   bloc: ^8.1.0
   bloc_concurrency: ^0.2.0
   equatable: ^2.0.3
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.1
-  http: ^0.13.0
+  http: ^1.1.0
   stream_transform: ^2.0.0
   formz: ^0.6.1
   user_repository:
     path: packages/user_repository
+  json_annotation: ^4.8.1
+  json_serializable: ^6.7.1
 
 dev_dependencies:
   flutter_test:
