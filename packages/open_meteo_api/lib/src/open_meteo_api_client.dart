@@ -11,8 +11,8 @@ class WeatherRequestFailure implements Exception {}
 
 class WeatherNotFoundFailure implements Exception {}
 
-class OpenMeteoAPiClient {
-  OpenMeteoAPiClient({http.Client? httpClient})
+class OpenMeteoApiClient {
+  OpenMeteoApiClient({http.Client? httpClient})
       : _httpClient = httpClient ?? http.Client();
 
   static const _baseUrlWeather = 'api.open-meteo.com';
